@@ -1,68 +1,391 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+font-family: "Poppins",sans-serif;
+}
+
+
+.bg_hero{
+  background: url('../src/assets/images/hero_bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vw;
+}
+.nav-link .active{
+  color:  #DD1B15 !important;
+}
+.nav-link{
+  color: #FFFFFF99 !important;
+}
+
+.btn_register{
+  background: transparent;
+  color: white;
+  border: none;
+}
+.sign_btn{
+  background: #DD1B15;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  width: 120px;
+}
+.hero_para{
+  font-size: 15px;
+  text-align: center;
+  color:  #FFFFFFBF;
+  font-weight: 300;
+}
+.hero_heading{
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 55px;
+  font-weight: 600;
+}
+.bg_selects{
+ background: #1F1F1FF0;
+ border-radius: 15px;
+ padding: 10px;  
+ padding-bottom: 30px;
+ border-top: 1px solid white;
+}
+.text_selects{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.bg_dropdown_color{
+  background-color: #505050 !important;
+  color: #C5C5C5 !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  padding: 15px !important;
+  font-weight: 200 !important;
+ 
+  
+}
+.drop_width{
+  width: 250px !important;
+}
+.bg_hamburger_color{
+background-color: #505050 ;
+border-radius: 5px;
+text-align: center;
+padding: 10px;
+width: 50px;
+}
+.btn_search_selects{
+  background-color: #DD1B15;
+  color: white;
+  border: none;
+   border-radius: 5px;
+   padding: 10px;
+   width: 150px;
+}
+.how_works{
+  color: #10101073; 
+  text-align: center ;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.Dz_heading{
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 45px;
+}
+.bg_shadow{
+  border-radius: 10px;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.bg_shadow_red{
+  background-color: #DD1B15;
+  border-radius: 10px;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.para_steps{
+  color: #787878;
+  font-size: 12px;
+  text-align: center;
+}
+.heading_steps{
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  text-wrap: nowrap;
+}
+.back_popular_img{
+  
+  background: url('../src/assets/images/backimg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.99));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  margin-top: 100px;
+}
+.why_choose_bg{
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.99));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  margin-top: 100px;
+}
+.why_choose_heading{
+  color:  #FFFFFF73;
+  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-a {
+.seamless_heading{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.popular_rental{
+  color:  #FFFFFF73;
+  font-size: 20px;
+  font-size: 18px;
+  font-weight: 200;
+}
+.best_valued{
+  color: white;
+  font-size: 42px;
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
+.box_btn{
+  border: 1px solid #505050;
+  padding: 10px;
+  border-radius: 10px;
 }
+.latest_btn{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+border: none;
+width: 130px;
+padding: 8px;
+font-size: 14px;
+}
+.featured_btn{
+  color: #FFFFFFCC;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+.card_text_cc{
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.best_card_bg{
+background:#1F1F1F !important;
+}
+.best_h3{
+  font-size: 25px;
+  color: white;
+}
+.listed_text{
+  color: #A0A0A0;
+  font-size: 12px;
+}
+.disposal_text{
+  color: white;
+  font-size: 12px;
+}
+.amount_text{
+  font-size: 18px;
+  color: white;
+}
+.day_text{
+  font-size: 12px;
+  color: #505050;
+}
+.book_car{
+background-color: #DD1B15;
+border: none;
+border-radius: 5px;
+color: white;
+padding: 10px;
+font-size: 12px;
+}
+.view_more_btn{
+  border:1px solid #DD1B15;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  background: transparent;
+}
+.btn_view_all{
+  border:1px solid #DD1B15;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #DD1B15;
+  background: transparent;
+}
+.our_rental{
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+}
+.bg_rental_cards{
+  background-color: #FAFAFA !important;
+  border: 1px solid #dbd5d55d !important;
+  border-radius: 15px !important;
+}
+.border_custome{
+  border: 1px solid;
+  border-right: none;
+  border-radius: 20px;
+  padding: 15px;
+  
+}
+.border_custome_2{
+  border: 1px solid;
+  border-left: none;
+  border-radius: 10px;
+  padding: 15px;
+  
+}
+.para_car_Sec{
+  color: #787878;
+  font-size: 14px;
+}
+.heading_car_Sec{
+  color: white;
+  font-size: 20px;
+}
+.car{
+  position: relative;
+}
+.position_img{
+  position: absolute;
+  z-index: -99;
+  right:-100px;
+}
+.about_us{
+  color: #787878;
+  font-size: 18px;
+}
+.about_heading{
+  font-size: 40px;
+  font-weight: 600;
+}
+.about_para{
+  color: #787878;
+  font-size: 16px;
+  font-weight: 400;
+}
+.heading_red{
+  color: #DD1B15;
+  font-weight: 600;
+}
+.heading_experience{
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.para_lorem{
+  font-size: 13px;
+  color: #787878;
+}
+.bg_review{
+  background: url('../src/assets/images/reviewbg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.bg_testimonial{
+  background-color: #1F1F1F !important;
+  color: #FFFFFF !important;
+  font-weight: 200;
+  font-size: 14px !important;
+  border-radius: 20px !important;
+  margin-top: 70px;
+}
+.faq_head{
+  color: #505050;
+  text-align: center;
+  
+}
+.Frequently_head{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.accordian_heading{
+  color: black;
+  font-weight: 600;
+}
+.accordian_para{
+  color: #787878;
+  font-size: 14px;
+}
+.accordion-button:not(.collapsed){
+  background-color: #F4F4F4 !important;
+box-shadow: none !important;
+}
+.accordion-item{
+  background-color: #F4F4F4 !important;
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.bg_book_ride{
+  background: linear-gradient(to right, black, transparent), url('../src/assets/images/bg_road.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.book_heading{
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
 }
-button:hover {
-  border-color: #646cff;
+.book_para{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.find_loc_btn{
+  background-color: #DD1B15;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px;
+  width: 200px;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.juorny {
+  background: linear-gradient(to right, red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.best_event_bg{
+  background-color: rgba(222, 222, 222, 0.4) !important;
+}
+.event_head{
+  background-color: #dd1c1523;
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
 }
