@@ -19,7 +19,7 @@ const Hero_selects = () => {
             </div>
             <div class="dropdown">
               <button
-                class="btn bg_dropdown_color  d-flex align-items-center gap-3"
+                class="btn bg_dropdown_color drop_one  d-flex align-items-center justify-content-between   gap-3"
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
