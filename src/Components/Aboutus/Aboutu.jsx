@@ -6,10 +6,10 @@ const Aboutu = () => {
     <>
       <div className="container-fluid mt-5">
         <div className="row">
-          <div className="col-md-2">
-            <img src={aboutframe} alt="" />
+          <div className="col-md-2 d_frame_none">
+            <img src={aboutframe}  width="100%" alt="" />
           </div>
-          <div className="col-md-5">
+          <div className="col-lg-5 col-md-12">
             <p className="about_us">ABOUT US</p>
             <h1 className="about_heading">
               Drive Easy Rentals:Your Key to Freedom"
@@ -30,7 +30,7 @@ const Aboutu = () => {
               <button className="btn_view_all">Read More</button>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4 col-md-12">
             <img src={Door_Car} width="100%" alt="" />
           </div>
         </div>

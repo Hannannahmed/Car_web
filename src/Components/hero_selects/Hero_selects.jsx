@@ -8,7 +8,7 @@ const Hero_selects = () => {
     <>
       <div className="container bg_selects">
         <div className="row ">
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 ">
             <div className="d-flex gap-2  mt-3">
               <div>
                 <img src={cartype} alt="cartype" className="mt-1" />
@@ -47,7 +47,7 @@ const Hero_selects = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 ">
           <div className="d-flex gap-2  mt-3">
               <div>
                 <img src={Location} width={15} alt="cartype" className="mt-1" />
@@ -86,7 +86,7 @@ const Hero_selects = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 ">
           <div className="d-flex gap-2  mt-3">
               <div>
                 <img src={Location} width={15} alt="cartype" className="mt-1" />
@@ -125,7 +125,7 @@ const Hero_selects = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-3 mt-5">
+          <div className="col-lg-3 col-md-6 col-sm-12  mt-5">
             <div className="d-flex gap-3 align-items-center">
             <div className="bg_hamburger_color mt-3"> 
               <img src={hamburger} alt="" />

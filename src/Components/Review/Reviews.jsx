@@ -39,7 +39,7 @@ const Reviews = () => {
           </h1>
           <div className="row">
             {card_testimonial.map((item, index) => (
-              <div className="col-md-4" key={index}>
+              <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
                 <div className="card p-3 bg_testimonial">
                   <div className="card-top-img mb-4">
                     <img src={item.questio_img} width={50} alt="" />

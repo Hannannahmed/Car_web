@@ -18,7 +18,7 @@ const Rental_feed = () => {
           <button className='btn_view_all'>View All</button>
         </div>
         {[BMW,Tesla,Ford,Audi,Hyundai,Lexus].map((item,index)=>(
-          <div className="col-md-2 mt-4" key={index}>
+          <div className="col-lg-2 col-md-4 col-sm-6 mt-4" key={index}>
           <div className="card p-2 bg_rental_cards " style={{height:"110px"}}>
             <div className='text-center'>
             <img src={item} width="100px" alt="" />

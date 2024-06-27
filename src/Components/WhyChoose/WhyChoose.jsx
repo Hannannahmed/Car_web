@@ -54,7 +54,7 @@ const WhyChoose = () => {
                 Discover A Seamless Rental Experience
               </h1>
             </div>
-            <div className="d-flex justify-content-center ">
+            <div className="d-flex justify-content-center wrap_custome ">
               <div className="parent">
                 {card_left.map((item, index) => (
                   <div className="d-flex  mt-3 " key={index}>
@@ -62,8 +62,8 @@ const WhyChoose = () => {
                       <h5 className="heading_car_Sec">{item.heading}</h5>
                       <p  className="para_car_Sec">{item.para}</p>
                     </div>
-                    <div>
-                      <img src={item.img_num} alt="" />
+                    <div className="none_number">
+                      <img src={item.img_num}  width={100}  alt="" />
                     </div>
                   </div>
                 ))}
@@ -75,8 +75,8 @@ const WhyChoose = () => {
               <div className="parent">
                 {card_right.map((item, index) => (
                   <div className="d-flex  mt-3 " key={index}>
-                    <div>
-                      <img src={item.img_num} alt="" />
+                    <div className="none_number">
+                      <img src={item.img_num} width={100} alt="" />
                     </div>
                     <div  className="border_custome_2">
                       <h5 className="heading_car_Sec">{item.heading}</h5>

@@ -3,7 +3,8 @@ import logo from '../../assets/images/Logo.png'
 const Navbar = () => {
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+    <div className="container-fluid "  style={{position:'fixed',background:"#262626",zIndex:1}}>
+    <nav className="navbar navbar-expand-lg navbar-light" >
   <div className="container">
     <a className="navbar-brand" href="#">
       <img src={logo} width={100} alt="" />
@@ -54,13 +55,15 @@ const Navbar = () => {
        
        
       </ul>
+      <div className='center_sm_custom'>
      <button className='btn_register mx-4'>Register</button>
      <button className='sign_btn'>Sign In</button>
+     </div>
     </div>
   </div>
 </nav>
 
-    
+</div>
     </>
   )
 }

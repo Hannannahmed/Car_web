@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12 mt-4">
             <h1 className="hero_heading">Save Big with Our Rental Car</h1>
           </div>
           <div className="col-md-12">
@@ -16,7 +16,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="col-md-12 text-center">
-            <img src={hero_img} width="50%" alt="" />
+            <img src={hero_img} className="hero_img_main" width="50%" alt="" />
           </div>
           <Hero_selects />
         </div>

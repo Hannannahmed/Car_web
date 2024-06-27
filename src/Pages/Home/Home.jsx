@@ -11,12 +11,13 @@ import Reviews from '../../Components/Review/Reviews'
 import Faq from '../../Components/Faq/Faq'
 import BookRide from '../../Components/BookRide/BookRide'
 import Event from '../../Components/Event/Event'
+import Footer from '../../Components/Footer/Footer'
 
 const Home = () => {
   return (
     <>
-    <div className="container-fluid bg_hero">
     <Navbar />
+    <div className="container-fluid bg_hero">
     <Hero /> 
     </div>
     <Steps_section />
@@ -29,6 +30,7 @@ const Home = () => {
     <Faq />
     <BookRide />
     <Event />
+    <Footer />
     </>
   )
 }

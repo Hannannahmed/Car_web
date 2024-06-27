@@ -1,369 +1,362 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-
-.bg_hero{
-  background: url('../src/assets/images/hero_bg.png');
+.bg_hero {
+  background: url("../src/assets/images/hero_bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vw;
+  /* height: 50vw; */
+  padding-bottom: 40px;
 }
-.nav-link .active{
-  color:  #DD1B15 !important;
+.nav-link .active {
+  color: #dd1b15 !important;
 }
-.nav-link{
-  color: #FFFFFF99 !important;
+.nav-link {
+  color: #ffffff99 !important;
 }
 
-.btn_register{
+.btn_register {
   background: transparent;
   color: white;
   border: none;
 }
-.sign_btn{
-  background: #DD1B15;
+.sign_btn {
+  background: #dd1b15;
   color: white;
   border: none;
   border-radius: 10px;
   padding: 12px;
   width: 120px;
 }
-.hero_para{
+.hero_para {
   font-size: 15px;
   text-align: center;
-  color:  #FFFFFFBF;
+  color: #ffffffbf;
   font-weight: 300;
 }
-.hero_heading{
+.hero_heading {
   color: white;
   text-align: center;
   margin-top: 60px;
   font-size: 55px;
   font-weight: 600;
 }
-.bg_selects{
- background: #1F1F1FF0;
- border-radius: 15px;
- padding: 10px;  
- padding-bottom: 30px;
- border-top: 1px solid white;
+.bg_selects {
+  background: #1f1f1ff0;
+  border-radius: 15px;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-top: 1px solid white;
 }
-.text_selects{
+.text_selects {
   color: white;
   font-size: 14px;
   font-weight: 500;
 }
-.bg_dropdown_color{
+.bg_dropdown_color {
   background-color: #505050 !important;
-  color: #C5C5C5 !important;
+  color: #c5c5c5 !important;
   border-radius: 5px !important;
   font-size: 14px !important;
   padding: 15px !important;
   font-weight: 200 !important;
- 
-  
 }
-.drop_width{
+.drop_width {
   width: 250px !important;
 }
-.bg_hamburger_color{
-background-color: #505050 ;
-border-radius: 5px;
-text-align: center;
-padding: 10px;
-width: 50px;
+.bg_hamburger_color {
+  background-color: #505050;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  width: 50px;
 }
-.btn_search_selects{
-  background-color: #DD1B15;
+.btn_search_selects {
+  background-color: #dd1b15;
   color: white;
   border: none;
-   border-radius: 5px;
-   padding: 10px;
-   width: 150px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
 }
-.how_works{
-  color: #10101073; 
-  text-align: center ;
+.how_works {
+  color: #10101073;
+  text-align: center;
   font-size: 18px;
   margin-top: 20px;
 }
-.Dz_heading{
+.Dz_heading {
   color: black;
   text-align: center;
   font-weight: 600;
   font-size: 45px;
 }
-.bg_shadow{
+.bg_shadow {
   border-radius: 10px;
   width: 80px;
   padding: 20px;
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.bg_shadow_red{
-  background-color: #DD1B15;
+.bg_shadow_red {
+  background-color: #dd1b15;
   border-radius: 10px;
   width: 80px;
   padding: 20px;
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.para_steps{
+.para_steps {
   color: #787878;
   font-size: 12px;
   text-align: center;
 }
-.heading_steps{
+.heading_steps {
   color: black;
   text-align: center;
   margin-top: 10px;
   text-wrap: nowrap;
 }
-.back_popular_img{
-  
-  background: url('../src/assets/images/backimg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.99));
+.back_popular_img {
+  background: url("../src/assets/images/backimg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.99));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 100vh; */
   margin-top: 100px;
 }
-.why_choose_bg{
+.why_choose_bg {
   position: relative;
   z-index: 2;
-  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.99));
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.99));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 100vh; */
   margin-top: 100px;
 }
-.why_choose_heading{
-  color:  #FFFFFF73;
+.why_choose_heading {
+  color: #ffffff73;
   font-size: 20px;
   font-size: 16px;
   font-weight: 400;
 }
-.seamless_heading{
+.seamless_heading {
   text-align: center;
   font-size: 40px;
   color: white;
 }
-.popular_rental{
-  color:  #FFFFFF73;
+.popular_rental {
+  color: #ffffff73;
   font-size: 20px;
   font-size: 18px;
   font-weight: 200;
 }
-.best_valued{
+.best_valued {
   color: white;
   font-size: 42px;
   font-weight: 500;
 }
-.box_btn{
+.box_btn {
   border: 1px solid #505050;
   padding: 10px;
   border-radius: 10px;
 }
-.latest_btn{
+.latest_btn {
   background-color: white;
   color: black;
   border-radius: 5px;
-border: none;
-width: 130px;
-padding: 8px;
-font-size: 14px;
+  border: none;
+  width: 130px;
+  padding: 8px;
+  font-size: 14px;
 }
-.featured_btn{
-  color: #FFFFFFCC;
+.featured_btn {
+  color: #ffffffcc;
   background: transparent;
   border: none;
   font-size: 16px;
   font-weight: 300;
 }
-.card_text_cc{
+.card_text_cc {
   font-size: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.best_card_bg{
-background:#1F1F1F !important;
+.best_card_bg {
+  background: #1f1f1f !important;
 }
-.best_h3{
+.best_h3 {
   font-size: 25px;
   color: white;
 }
-.listed_text{
-  color: #A0A0A0;
+.listed_text {
+  color: #a0a0a0;
   font-size: 12px;
 }
-.disposal_text{
+.disposal_text {
   color: white;
   font-size: 12px;
 }
-.amount_text{
+.amount_text {
   font-size: 18px;
   color: white;
 }
-.day_text{
+.day_text {
   font-size: 12px;
   color: #505050;
 }
-.book_car{
-background-color: #DD1B15;
-border: none;
-border-radius: 5px;
-color: white;
-padding: 10px;
-font-size: 12px;
+.book_car {
+  background-color: #dd1b15;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
 }
-.view_more_btn{
-  border:1px solid #DD1B15;
+.view_more_btn {
+  border: 1px solid #dd1b15;
   border-radius: 10px;
   padding: 10px;
   font-size: 12px;
   color: white;
   background: transparent;
 }
-.btn_view_all{
-  border:1px solid #DD1B15;
+.btn_view_all {
+  border: 1px solid #dd1b15;
   border-radius: 10px;
   padding: 10px;
   font-size: 14px;
-  color: #DD1B15;
+  color: #dd1b15;
   background: transparent;
 }
-.our_rental{
+.our_rental {
   color: black;
   font-size: 35px;
   font-weight: 600;
 }
-.bg_rental_cards{
-  background-color: #FAFAFA !important;
+.bg_rental_cards {
+  background-color: #fafafa !important;
   border: 1px solid #dbd5d55d !important;
   border-radius: 15px !important;
 }
-.border_custome{
+.border_custome {
   border: 1px solid;
   border-right: none;
   border-radius: 20px;
   padding: 15px;
-  
 }
-.border_custome_2{
+.border_custome_2 {
   border: 1px solid;
   border-left: none;
   border-radius: 10px;
   padding: 15px;
-  
 }
-.para_car_Sec{
+.para_car_Sec {
   color: #787878;
   font-size: 14px;
 }
-.heading_car_Sec{
+.heading_car_Sec {
   color: white;
   font-size: 20px;
 }
-.car{
+.car {
   position: relative;
 }
-.position_img{
+.position_img {
   position: absolute;
   z-index: -99;
-  right:-100px;
+  right: -100px;
 }
-.about_us{
+.about_us {
   color: #787878;
   font-size: 18px;
 }
-.about_heading{
+.about_heading {
   font-size: 40px;
   font-weight: 600;
 }
-.about_para{
+.about_para {
   color: #787878;
   font-size: 16px;
   font-weight: 400;
 }
-.heading_red{
-  color: #DD1B15;
+.heading_red {
+  color: #dd1b15;
   font-weight: 600;
 }
-.heading_experience{
+.heading_experience {
   color: black;
   font-size: 15px;
   font-weight: 600;
 }
-.para_lorem{
+.para_lorem {
   font-size: 13px;
   color: #787878;
 }
-.bg_review{
-  background: url('../src/assets/images/reviewbg.png');
+.bg_review {
+  background: url("../src/assets/images/reviewbg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+ 
 }
-.bg_testimonial{
-  background-color: #1F1F1F !important;
-  color: #FFFFFF !important;
+.bg_testimonial {
+  background-color: #1f1f1f !important;
+  color: #ffffff !important;
   font-weight: 200;
   font-size: 14px !important;
   border-radius: 20px !important;
   margin-top: 70px;
 }
-.faq_head{
+.faq_head {
   color: #505050;
   text-align: center;
-  
 }
-.Frequently_head{
+.Frequently_head {
   text-align: center;
   font-size: 35px;
   font-weight: 600;
 }
-.accordian_heading{
+.accordian_heading {
   color: black;
   font-weight: 600;
 }
-.accordian_para{
+.accordian_para {
   color: #787878;
   font-size: 14px;
 }
-.accordion-button:not(.collapsed){
-  background-color: #F4F4F4 !important;
-box-shadow: none !important;
+.accordion-button:not(.collapsed) {
+  background-color: #f4f4f4 !important;
+  box-shadow: none !important;
 }
-.accordion-item{
-  background-color: #F4F4F4 !important;
-
+.accordion-item {
+  background-color: #f4f4f4 !important;
 }
-.bg_book_ride{
-  background: linear-gradient(to right, black, transparent), url('../src/assets/images/bg_road.png');
+.bg_book_ride {
+  background: linear-gradient(to right, black, transparent),
+    url("../src/assets/images/bg_road.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
-.book_heading{
+.book_heading {
   color: white;
   font-size: 35px;
   font-weight: 600;
 }
-.book_para{
-  color: #FFFFFF;
+.book_para {
+  color: #ffffff;
   font-size: 14px;
   font-weight: 300;
   line-height: 30px;
 }
-.find_loc_btn{
-  background-color: #DD1B15;
+.find_loc_btn {
+  background-color: #dd1b15;
   border: none;
   border-radius: 5px;
   color: white;
@@ -379,13 +372,107 @@ box-shadow: none !important;
   background-clip: text;
   color: transparent;
 }
-.best_event_bg{
+.best_event_bg {
   background-color: rgba(222, 222, 222, 0.4) !important;
 }
-.event_head{
+.event_head {
   background-color: #dd1c1523;
   color: red;
   border-radius: 5px;
   padding: 5px;
   font-size: 14px;
+}
+.bg_footer {
+  background:    url("../../Car_web/src/assets/images/Footer_bg.png") ,linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.99));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fafafa;
+}
+.li_style{
+  list-style: none;
+  line-height: 40px;
+  font-size: 14px;
+}
+.footer_text{
+  margin-top: 16px;
+  font-size: 12px;
+}
+.info_text{
+  font-size: 14px;
+}
+.footer_h3{
+  font-size: 25px;
+  
+  font-weight: 600;
+}
+.footer_dz{
+  color: #dd1b15;
+}
+.footer_design{
+  color: #505050;
+  font-size: 14px;
+  font-weight: 600;
+}
+.font_size_text{
+  font-size:14px;
+}
+.term_privacy_text{
+  color: #787878;
+}
+.navbar-toggler-icon{
+  filter: brightness(43.5) !important;
+}
+
+/* Media Query Start */
+@media screen and (max-width:1024px) {
+  .car{
+    display: none;
+  }
+  .heading_steps{
+    text-wrap: wrap;
+  }
+  .nav-link{
+    text-wrap: nowrap;
+  }
+  .drop_width{
+    width: 200px !important;
+  }
+}
+@media screen and (max-width:991px){
+  .nav-link{
+    text-align: center;
+    margin-top: 10px;
+  }
+.center_sm_custom{
+  margin-top: 10px;
+
+  text-align: center;
+}
+}
+@media screen and (max-width:768px) {
+  .step_2_hide{
+    display: none;
+  }
+  .d_frame_none{
+    display: none;
+  }
+}
+@media screen and (max-width:425px){
+  .none_number{
+    display: none;
+  }
+  .step_1_hide{
+    display: none;
+  }
+  .hero_heading{
+    font-size: 30px;
+  }
+.hero_img_main{
+  width: 100%;
+}
+.wrap_custome{
+  display: flex;
+  flex-wrap: wrap;
+}
 }

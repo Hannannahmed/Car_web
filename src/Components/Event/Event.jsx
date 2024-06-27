@@ -39,7 +39,7 @@ const Event = () => {
       <h1 className="Frequently_head">Upcoming Cars & Events</h1>
       {card_data.map((item, index) => (
          
-         <div className="col-md-4 mt-3" key={index}>
+         <div className="col-lg-4 col-md-6 mt-3" key={index}>
            <div className="card best_event_bg">
              <div className="card-img-top text-center p-2">
                <img src={item.top_img} width="100%" alt="" />
@@ -53,6 +53,9 @@ const Event = () => {
          </div>
   
      ))}
+      <div className="  mt-5 text-center">
+          <button className='btn_view_all'>View All</button>
+        </div>
       </div>
       </div>
     

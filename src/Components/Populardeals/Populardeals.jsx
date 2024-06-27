@@ -125,12 +125,12 @@ const Populardeals = () => {
             <div className="col-md-12">
               <p className="popular_rental">POPULAR RENTAL DEALS</p>
             </div>
-            <div className="col-md-9">
+            <div className="col-lg-9 col-md-6 col-sm-12">
               <h1 className="best_valued">
                 Best Valued Deals You Will Ever Find
               </h1>
             </div>
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="box_btn d-flex gap-2">
                 <button className="latest_btn">Latest Cars</button>
                 <button className="featured_btn">Featured</button>
@@ -138,10 +138,10 @@ const Populardeals = () => {
             </div>
             {card_data.map((item, index) => (
          
-                <div className="col-md-3 mt-3" key={index}>
+                <div className="col-lg-3 col-md-6 col-sm-12 mt-3" key={index}>
                   <div className="card best_card_bg">
                     <div className="card-img-top text-center p-2">
-                      <img src={item.top_img} alt="" />
+                      <img src={item.top_img} width="100%" alt="" />
                     </div>
                     <div className="card-body">
                       <h3 className="best_h3">{item.heading}</h3>
@@ -154,7 +154,7 @@ const Populardeals = () => {
                       </p>
                       <div className="row"></div>
                       <div className="d-flex gap-2">
-                        <div className="d-flex gap-2 align-items-center">
+                        <div className="d-flex gap-2 align-items-center flex-wrap">
                           <div>
                             <img src={item.iconspeed} width={20} alt="" />
                           </div>
@@ -164,7 +164,7 @@ const Populardeals = () => {
                             </p>
                           </div>
                         </div>
-                        <div className="d-flex gap-2 align-items-center">
+                        <div className="d-flex gap-2 align-items-center flex-wrap">
                           <div>
                             <img src={item.iconmanual} width={20} alt="" />
                           </div>
@@ -174,7 +174,7 @@ const Populardeals = () => {
                             </p>
                           </div>
                         </div>
-                        <div className="d-flex gap-2 align-items-center">
+                        <div className="d-flex gap-2 align-items-center flex-wrap">
                           <div>
                             <img src={item.iconpetrol} width={20} alt="" />
                           </div>
