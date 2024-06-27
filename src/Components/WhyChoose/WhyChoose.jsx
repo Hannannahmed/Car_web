@@ -45,7 +45,7 @@ const WhyChoose = () => {
   ];
   return (
     <>
-      <div className="container-fluid why_choose_bg pb-5 ">
+      <div id="WhyChooseUS" className="container-fluid why_choose_bg pb-5 ">
         <div className="container ">
           <div className="row">
             <div className="col-md-12 mt-5">

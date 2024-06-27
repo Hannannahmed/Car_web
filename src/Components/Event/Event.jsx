@@ -33,7 +33,7 @@ const Event = () => {
   ];
   return (
     <>
-    <div className="container mt-5">
+    <div id='blogs' className="container mt-5">
       <div className="row">
       <p className="faq_head">Recent News & Update</p>
       <h1 className="Frequently_head">Upcoming Cars & Events</h1>

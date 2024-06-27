@@ -4,7 +4,7 @@ import Hero_selects from "../hero_selects/Hero_selects";
 const Hero = () => {
   return (
     <>
-      <div className="container">
+      <div id="home" className="container">
         <div className="row">
           <div className="col-md-12 mt-4">
             <h1 className="hero_heading">Save Big with Our Rental Car</h1>

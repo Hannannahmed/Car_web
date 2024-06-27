@@ -4,7 +4,7 @@ import aboutframe from "../../assets/images/aboutframe.png";
 const Aboutu = () => {
   return (
     <>
-      <div className="container-fluid mt-5">
+      <div id="about" className="container-fluid mt-5">
         <div className="row">
           <div className="col-md-2 d_frame_none">
             <img src={aboutframe}  width="100%" alt="" />

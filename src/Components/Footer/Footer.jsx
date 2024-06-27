@@ -10,7 +10,7 @@ import line from "../../assets/images/line.png";
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid bg_footer mt-5">
+      <div id="contact" className="container-fluid bg_footer mt-5">
         <div className="container">
           <div className="row p-5 " >
             <div className="col-lg-3 col-md-6 mt-3 col-sm-12">
