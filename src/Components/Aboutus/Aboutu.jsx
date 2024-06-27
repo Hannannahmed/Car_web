@@ -7,7 +7,7 @@ const Aboutu = () => {
       <div id="about" className="container-fluid mt-5">
         <div className="row">
           <div className="col-md-2 d_frame_none">
-            <img src={aboutframe}  width="100%" alt="" />
+            <img src={aboutframe}  width="50%" alt="" />
           </div>
           <div className="col-lg-5 col-md-12">
             <p className="about_us">ABOUT US</p>
