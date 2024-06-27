@@ -384,7 +384,7 @@
   font-size: 14px;
 }
 .bg_footer {
-  background:url("../../Car_web/src/assets/images/Footer_bg.png") ,linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.99)) !important;
+  background:url("../../Car_web/src/assets/images/footer_bg.png") ,linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.99)) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important; 
