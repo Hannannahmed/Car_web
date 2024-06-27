@@ -545,4 +545,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+.drop_width{
+  width: 100% !important;
+}
 }
